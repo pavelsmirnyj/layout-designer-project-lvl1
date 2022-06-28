@@ -1,12 +1,12 @@
 /** CSS STYLE **/
 @font-face {
-  font-family: 'Open Sans';
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 }
 
 @font-face {
   font-family: Neucha;
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 }
 
 :root {
@@ -22,31 +22,42 @@
 }
 
 body {
-  width: 1100px;
-
-  margin: 0 auto;
-
   box-sizing: border-box;
 
+  width: 1100px;
+  margin: 0 auto;
+
+  color: #2a2626;
+
   font-size: 16px;
-  color: #2A2626;
+
   line-height: 1.6em;
-  
 }
 
-h1 {font-size: 72px;}
+h1 {
+  font-size: 72px;
+}
 
-h2 {font-size: 60px;}
+h2 {
+  font-size: 60px;
+}
 
-h3 {font-size: 34px;}
+h3 {
+  font-size: 34px;
+}
 
-h1, h2, h3 {line-height: 1.2em;}
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+}
 
-section {padding: 100 0;}
+section {
+  padding: 100 0;
+}
 
 .hello {
   display: block;
 
   color: #fff;
 }
-
