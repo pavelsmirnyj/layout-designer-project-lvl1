@@ -2,19 +2,19 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("/src/fonts/OpenSans-Regular.ttf");
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url("/src/fonts/OpenSans-Bold.ttf");
+  src: url("../fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  src: url("/src/fonts/Neucha-Regular.ttf");
+  src: url("../fonts/Neucha-Regular.ttf");
 }
 
 :root {
@@ -160,7 +160,7 @@ main::before {
   height: 100%;
 
   background-color: var(--color-semi-dark);
-  background-image: url("/src/img/background.png");
+  background-image: url("../img/background.png");
 
   opacity: 0.1;
 
@@ -191,7 +191,7 @@ main::before {
   width: 100%;
   height: 525px;
 
-  background-image: url("/src/img/tota_ill-4\ 1.png");
+  background-image: url("../img/tota_ill-4\ 1.png");
   background-repeat: no-repeat;
 }
 
