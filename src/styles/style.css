@@ -424,5 +424,5 @@ header .col-2 p,
 }
 
 .btn-70x50hw::before {
-  content: url("/src/icon/Vector.png");
+  content: url("../icon/Vector.png");
 }
