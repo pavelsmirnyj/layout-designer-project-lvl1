@@ -386,12 +386,14 @@ header .col-2 p,
   min-height: 919px;
 }
 
+footer {
+  margin-top: 100px;
+}
+
 .feedback {
   align-items: center;
 
   min-height: 190px;
-
-  margin-top: 100px;
 
   background-color: var(--color-main-dark);
 }
