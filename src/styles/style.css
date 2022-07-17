@@ -46,14 +46,17 @@ body {
   line-height: 1.6em;
 }
 
-h1 {
+h1,
+.font-size-72px {
   font-size: 72px;
 }
 
+.font-size-72px {
+  line-height: 1em;
+}
 h2 {
   font-weight: 400;
   font-size: 60px;
-
 }
 
 h3 {
@@ -275,8 +278,6 @@ header .col-2 p,
 
 .card {
   width: 350px;
-
-  /* margin-bottom: 20px; */
 
   padding: 24px;
 
