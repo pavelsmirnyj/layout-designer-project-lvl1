@@ -54,6 +54,7 @@ h1,
 .font-size-72px {
   line-height: 1em;
 }
+
 h2 {
   font-weight: 400;
   font-size: 60px;
@@ -190,8 +191,8 @@ main::before {
 
 .header-img {
   position: absolute;
-  top: 100px;
-  right: -370px;
+  top: 55px;
+  right: -270px;
 
   width: 100%;
   height: 525px;
