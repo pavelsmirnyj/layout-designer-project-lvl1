@@ -53,9 +53,11 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 60px;
+
 }
 
 h3 {
+  font-weight: 400px;
   font-size: 34px;
 }
 
@@ -274,7 +276,7 @@ header .col-2 p,
 .card {
   width: 350px;
 
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 
   padding: 24px;
 
@@ -316,7 +318,6 @@ header .col-2 p,
 
   color: var(--color-main-dark);
 
-  font-weight: 400;
   font-size: 64px;
   line-height: 1em;
 }
