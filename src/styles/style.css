@@ -387,13 +387,15 @@ header .col-2 p,
 }
 
 footer {
-  margin-top: 100px;
+  min-height: 581px;
 }
 
 .feedback {
   align-items: center;
 
   min-height: 190px;
+
+  margin-top: 100px;
 
   background-color: var(--color-main-dark);
 }
