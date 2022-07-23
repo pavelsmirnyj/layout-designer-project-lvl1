@@ -162,6 +162,8 @@ header::before {
 }
 
 .content {
+  position: relative;
+
   width: 1110px;
 
   margin: 0 auto;
@@ -181,12 +183,11 @@ header::before {
   position: absolute;
 
   top: 100px;
-  left: 745px;
+  right: -180px;
 }
 
 .header-title {
-  position: relative;
   height: 525px;
 
-  top: 100px;
+  padding-top: 100px;
 }
