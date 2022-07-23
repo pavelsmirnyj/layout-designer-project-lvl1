@@ -138,7 +138,7 @@ li {
 
 header {
   width: 100%;
-  min-height: 914px;
+  /* min-height: 914px; */
 }
 
 header::before {
@@ -194,8 +194,7 @@ header::before {
 }
 
 main {
-  /* position: relative; */
-  box-sizing: border-box;
+  position: relative;
 
   width: 100%;
 }
@@ -204,8 +203,12 @@ main {
   background-color: var(--color-white);
 }
 
+#video-section h2{
+  padding-top: 100px;
+}
+
 #video-section > p {
-  padding: 30px 0;
+  margin: 30px 0;
 }
 
 .video {
