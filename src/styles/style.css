@@ -198,6 +198,8 @@ header::before {
 #video-section {
   position: relative;
 
+  width: 100%;
+
   /* min-height: 914px; */
 
   text-align: center;
