@@ -102,7 +102,7 @@ li {
   width: 148px;
   min-height: 49px;
 
-  margin-top: 40px;
+  /* margin-top: 40px; */
   padding: 12px 24px;
 
   color: var(--color-white);
