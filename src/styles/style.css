@@ -217,10 +217,10 @@ header::before {
 #navigation {
   position: relative;
   z-index: 100;
+/* 
+  min-height: 991px; */
 
-  /* min-height: 991px; */
-
-  margin-top: -200px;
+  margin-top: -100px;
 
   background-color: var(--color-main-dark);
 }
@@ -232,6 +232,8 @@ header::before {
   gap: 30px;
 
   padding-top: 200px;
+  padding-bottom: 100px;
+
 }
 
 .card {
