@@ -199,8 +199,7 @@ header::before {
   position: relative;
 
   width: 100%;
-
-  /* min-height: 914px; */
+  padding-left: 1px;
 
   text-align: center;
 
