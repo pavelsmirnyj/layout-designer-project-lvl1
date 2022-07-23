@@ -195,6 +195,12 @@ header::before {
   padding-top: 100px;
 }
 
+main {
+  position: relative;
+
+  width: 100%;
+}
+
 #video-section {
   position: relative;
 
