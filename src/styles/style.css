@@ -43,7 +43,6 @@
 }
 
 body {
-
   color: var(--color-dark);
 
   font-size: var(--font-size-16px);
@@ -183,7 +182,7 @@ header::before {
   position: absolute;
 
   top: 100px;
-  right: -18px;
+  right: -180px;
 }
 
 .header-title {
@@ -195,7 +194,7 @@ header::before {
 #video-section {
   position: relative;
 
-  min-height: 914px;
+  /* min-height: 914px; */
 
   text-align: center;
 
@@ -219,9 +218,9 @@ header::before {
   position: relative;
   z-index: 100;
 
-  min-height: 991px;
+  /* min-height: 991px; */
 
-  margin-top: -300px;
+  margin-top: -200px;
 
   background-color: var(--color-main-dark);
 }
