@@ -277,3 +277,57 @@ header::before {
 
   line-height: 1em;
 }
+
+footer {
+  min-height: 581px;
+}
+
+.pt-100px {
+  padding-top: 100px;
+}
+
+.feedback {
+  align-items: center;
+
+  min-height: 190px;
+
+  /* margin-top: 100px; */
+
+  background-color: var(--color-main-dark);
+}
+
+.feedback .label-email {
+  font-size: 18px;
+}
+
+#label-email {
+  display: block;
+
+  width: 423px;
+  height: 50px;
+
+  padding: 15px;
+
+  font-size: 13.1px;
+
+  border: none;
+  border-radius: 0%;
+
+  outline: none;
+}
+
+.input-button {
+  display: flex;
+}
+
+.author {
+  margin: 60px 0 100px;
+
+  font-size: 14px;
+
+  text-align: center;
+}
+
+.btn-70x50hw::before {
+  content: url("../icon/Vector.png");
+}
