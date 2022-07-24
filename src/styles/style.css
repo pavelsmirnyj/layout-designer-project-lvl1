@@ -193,11 +193,6 @@ header::before {
   padding-top: 100px;
 }
 
-main {
-
-  width: 100%;
-}
-
 #video-section {
   background-color: var(--color-white);
 }
@@ -216,9 +211,6 @@ main {
 #navigation {
   position: relative;
   z-index: 100;
-
-  /*
-  min-height: 991px; */
 
   margin-top: -200px;
 
