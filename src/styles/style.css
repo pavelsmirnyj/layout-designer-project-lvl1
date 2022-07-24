@@ -197,7 +197,7 @@ header::before {
   background-color: var(--color-white);
 }
 
-#video-section .content p {
+#video-section p {
   margin: 30px 0;
 }
 
