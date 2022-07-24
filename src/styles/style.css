@@ -139,6 +139,7 @@ li {
 header {
   width: 100%;
   min-height: 914px;
+  overflow-x: hidden;
 }
 
 header::before {
@@ -272,5 +273,5 @@ header::before {
 
   font-size: 64px;
 
-  /* line-height: 1em; */
+  line-height: 1em;
 }
