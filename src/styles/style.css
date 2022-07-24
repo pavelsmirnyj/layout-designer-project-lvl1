@@ -138,9 +138,12 @@ li {
 
 header {
   position: relative;
+
   width: 100%;
+
   min-height: 914px;
-  overflow-x: hidden;
+
+  overflow: hidden;
 }
 
 header::before {
@@ -207,14 +210,14 @@ header::before {
   position: relative;
   z-index: 200;
 
+  margin-bottom: -200px;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 #navigation {
   position: relative;
   z-index: 100;
-
-  margin-top: -200px;
 
   background-color: var(--color-main-dark);
 }
