@@ -2,21 +2,18 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  line-height: 1.6em;
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  line-height: 1.6em;
   src: url("../fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  line-height: 1.2em;
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
@@ -47,6 +44,7 @@ body {
 
   font-size: var(--font-size-16px);
   font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 }
 
 h1 {
