@@ -327,7 +327,7 @@ header::before,
 .feedback {
   align-items: center;
 
-  /* min-height: 190px; */
+  min-height: 190px;
 
   background-color: var(--color-main-dark);
 }
