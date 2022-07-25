@@ -101,7 +101,7 @@ li {
 }
 
 .drop-shadow {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .font-neucha {
@@ -248,7 +248,7 @@ header::before,
 
   margin-bottom: -200px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 #navigation {
@@ -324,6 +324,10 @@ header::before,
   padding-top: 100px;
 }
 
+footer {
+  min-height: 581px;
+}
+
 .feedback {
   align-items: center;
 
@@ -357,14 +361,14 @@ header::before,
 }
 
 .author {
-  padding: 60px 0 100px;
+  padding-top: 60px;
 
   font-size: 14px;
 
   text-align: center;
 }
 
-.btn-70x50hw {
+.btn-70-50hw {
   width: 70px;
   height: 50px;
 
@@ -374,10 +378,10 @@ header::before,
   cursor: pointer;
 }
 
-.btn-70x50hw::before {
+.btn-70-50hw::before {
   content: url("../icon/Vector.png");
 }
 
 #ikea-effect {
-  min-height: 960px;
+  min-height: 910px;
 }
