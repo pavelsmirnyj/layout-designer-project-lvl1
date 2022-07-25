@@ -59,6 +59,10 @@ h3 {
   font-size: 34px;
 }
 
+h4 {
+  font-size: 14px;
+}
+
 h1,
 h2,
 h3 {
@@ -88,6 +92,18 @@ li {
   color: var(--color-white);
 }
 
+.color-semi-dark {
+  color: var(--color-semi-dark);
+}
+
+.backrgound-braun {
+  background-color: var(--color-brown);
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+}
+
 .font-neucha {
   font-family: Neucha, cursive;
 }
@@ -114,12 +130,17 @@ li {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-70x50hw:hover {
   background-color: #ea7600;
 }
 
 .font-size-12px {
   font-size: 12px;
+}
+
+.font-size-24px {
+  font-size: 24px;
 }
 
 .mt-16px {
@@ -134,6 +155,18 @@ li {
   margin-top: 20px;
 }
 
+.mt-30px {
+  margin-top: 30px;
+}
+
+.mt-100px {
+  margin-top: 100px;
+}
+
+.pl-10px {
+  padding-left: 10px;
+}
+
 header {
   position: relative;
 
@@ -144,12 +177,13 @@ header {
   overflow: hidden;
 }
 
-header::before {
+header::before,
+#ikea-effect::before {
   position: absolute;
 
-  /* display: flex;
+  display: flex;
 
-  justify-content: center; */
+  justify-content: center;
 
   width: 100%;
   height: 100%;
@@ -200,6 +234,10 @@ header::before {
   background-color: var(--color-white);
 }
 
+.block p {
+  font-size: 12px;
+}
+
 #video-section p {
   margin: 30px 0;
 }
@@ -228,6 +266,10 @@ header::before {
 
   padding-top: 200px;
   padding-bottom: 100px;
+}
+
+.feedback h3 {
+  padding-left: 55px;
 }
 
 .card {
@@ -278,10 +320,6 @@ header::before {
   line-height: 1em;
 }
 
-footer {
-  min-height: 581px;
-}
-
 .pt-100px {
   padding-top: 100px;
 }
@@ -290,8 +328,6 @@ footer {
   align-items: center;
 
   min-height: 190px;
-
-  /* margin-top: 100px; */
 
   background-color: var(--color-main-dark);
 }
@@ -328,6 +364,20 @@ footer {
   text-align: center;
 }
 
+.btn-70x50hw {
+  width: 70px;
+  height: 50px;
+
+  background-color: var(--color-orange);
+
+  border: none;
+  cursor: pointer;
+}
+
 .btn-70x50hw::before {
   content: url("../icon/Vector.png");
+}
+
+#ikea-effect {
+  min-height: 960px;
 }
