@@ -52,7 +52,10 @@ h1 {
 }
 
 h2 {
+  color: var(--color-orange);
+
   font-size: 60px;
+  font-family: Neucha, cursive;
 }
 
 h3 {
@@ -74,14 +77,12 @@ h3 {
   color: var(--color-dark);
 
   text-decoration: none;
+
+  list-style-type: none;
 }
 
 .color-link {
   color: #007dc1;
-}
-
-li {
-  list-style-type: none;
 }
 
 .color-orange {
@@ -102,6 +103,10 @@ li {
 
 .color-semi-dark {
   color: var(--color-semi-dark);
+}
+
+.color-main-dark {
+  color: var(--color-main-dark);
 }
 
 .backrgound-braun {
@@ -192,10 +197,6 @@ header {
 header::before,
 .background-effect-before::before {
   position: absolute;
-
-  /* display: flex;
-
-  justify-content: center; */
 
   width: 100%;
   height: 100%;
@@ -404,7 +405,7 @@ footer {
   overflow: hidden;
 }
 
-#premature-optimization {
+.premature-optimization {
   position: relative;
 
   min-height: 860px;
@@ -412,4 +413,8 @@ footer {
   overflow: hidden;
 
   background-color: var(--color-brown);
+}
+
+.premature-optimization-image {
+  vertical-align: middle;
 }
