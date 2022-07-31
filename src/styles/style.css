@@ -194,7 +194,8 @@ header {
   overflow: hidden;
 }
 
-header::before {
+header::before,
+.drop-shadow-1::before {
   position: absolute;
 
   width: 100%;
