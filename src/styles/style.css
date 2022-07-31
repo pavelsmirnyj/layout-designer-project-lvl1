@@ -44,7 +44,7 @@ body {
 
   font-size: var(--font-size-16px);
   font-family: "Open Sans", sans-serif;
-  line-height: 1.6em;
+  /* line-height: 1.6em; */
 }
 
 h1 {
@@ -415,6 +415,6 @@ footer {
   background-color: var(--color-brown);
 }
 
-.premature-optimization-image {
+/* .premature-optimization-image {
   vertical-align: middle;
-}
+} */
