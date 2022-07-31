@@ -195,7 +195,7 @@ header {
 }
 
 header::before,
-.drop-shadow-1::before {
+.background-effect-before-1::before {
   position: absolute;
 
   width: 100%;
