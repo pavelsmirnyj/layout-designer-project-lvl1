@@ -448,13 +448,9 @@ footer {
 
   min-height: 937px;
 
-  /* overflow: hidden; */
-
   background-color: var(--color-brown);
 }
 
 #erros-in-planning {
   min-height: 919px;
-
-  /* overflow: hidden; */
 }
