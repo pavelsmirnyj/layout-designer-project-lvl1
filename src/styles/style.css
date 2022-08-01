@@ -413,7 +413,7 @@ footer {
   content: url("../icon/Vector.png");
 }
 
-#ikea-effect {
+#ikea-effect, {
   position: relative;
 
   min-height: 910px;
@@ -441,4 +441,14 @@ footer {
   min-height: 880px;
 
   overflow: hidden;
+}
+
+#hyperbolic-depreciation {
+  /* position: relative; */
+
+  min-height: 937px;
+
+  /* overflow: hidden; */
+
+  background-color: var(--color-brown);
 }
