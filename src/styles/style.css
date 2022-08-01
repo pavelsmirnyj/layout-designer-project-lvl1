@@ -452,3 +452,6 @@ footer {
 
   background-color: var(--color-brown);
 }
+#erros-in-planning {
+  min-height: 919px;
+}
