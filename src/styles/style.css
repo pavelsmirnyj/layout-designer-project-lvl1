@@ -434,3 +434,11 @@ footer {
 /* .premature-optimization-image {
   vertical-align: middle;
 } */
+
+#distortion-of-novely {
+  position: relative;
+
+  min-height: 880px;
+
+  overflow: hidden;
+}
