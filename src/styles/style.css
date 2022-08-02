@@ -435,7 +435,7 @@ footer {
   vertical-align: middle;
 } */
 
-#distortion-of-novely {
+#distortion-of-novelty {
   position: relative;
 
   min-height: 880px;
@@ -451,6 +451,6 @@ footer {
   background-color: var(--color-brown);
 }
 
-#erros-in-planning {
+#errors-in-planning {
   min-height: 919px;
 }
