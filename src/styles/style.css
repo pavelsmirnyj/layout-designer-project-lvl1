@@ -413,34 +413,26 @@ footer {
   content: url("../icon/Vector.png");
 }
 
-#ikea-effect {
+#ikea-effect,
+#premature-optimization,
+#distortion-of-novelty {
   position: relative;
-
-  min-height: 910px;
 
   overflow: hidden;
 }
 
+#ikea-effect {
+  min-height: 910px;
+}
+
 #premature-optimization {
-  position: relative;
-
   min-height: 860px;
-
-  overflow: hidden;
 
   background-color: var(--color-brown);
 }
 
-/* .premature-optimization-image {
-  vertical-align: middle;
-} */
-
 #distortion-of-novelty {
-  position: relative;
-
   min-height: 880px;
-
-  overflow: hidden;
 }
 
 #hyperbolic-depreciation {
