@@ -12,7 +12,7 @@ make install
 make lint
 ```
 
-## link
+## Link
 
 http://plsmirnyj.surge.sh
 
