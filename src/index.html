@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="content">
         <div class="header-image">
           <img src="img/tota_ill-4-1.png" alt="Tota with a computer" />
@@ -27,23 +27,30 @@
             существенны. Иногда с ними можно как-то справиться, а иногда, к
             сожалению, нет.
           </p>
-          <p>
-            Вместе они формируют что-то вроде замкнутого цикла, и это может
-            привести к длительной потере продуктивности, багам и бесконечному
-            разочарованию.<br /><br />Если мы сможем минимизировать воздействие
-            одного или нескольких из этих факторов, то сможем сломать и цикл, а
-            остатки нейтрализовать.
-          </p>
-          <div></div>
-          <a href="#cognitive-biases">
-            <button class="btn">ПОДРОБНЕЕ</button>
-          </a>
+          <div>
+            <p>
+              Вместе они формируют что-то вроде замкнутого цикла, и это может
+              привести к длительной потере продуктивности, багам и бесконечному
+              разочарованию.<span class="format-string">
+                Если мы сможем минимизировать воздействие одного или нескольких
+                из этих факторов, то сможем сломать и цикл, а остатки
+                нейтрализовать.</span
+              >
+            </p>
+
+            <a href="#cognitive-biases" class="btn btn-decor mt-40px"
+              >подробнее</a
+            >
+          </div>
+
+          <!-- <div></div> -->
         </div>
       </div>
     </header>
+
     <main>
-      <!-- Video section -->
-      <section id="video-section" class="section">
+      <!-- video section -->
+      <section id="video-section" class="video-section section">
         <h2>
           <span class="color-main-dark">Что же это такое,</span><br />
           когнитивные искажения?
@@ -60,82 +67,82 @@
       </section>
 
       <!-- main menu -->
-      <section id="navigation">
+      <section id="navigation" class="navigation">
         <ul class="content col-3">
-          <a href="#header" class="link">
-            <li
-              id="cognitive-biases"
-              class="card card-height-323px nth-child-1"
-            >
-              <h1>
-                <span class="color-orange">5 когнитивных искажений</span><br />
-                <span class="color-white"
-                  >о существовании которых стоит помнить</span
-                >
-              </h1>
-            </li>
-          </a>
-          <a href="#ikea-effect" class="link">
-            <li class="card card-height-323px">
+          <li
+            id="cognitive-biases"
+            class="card card-height-standard nth-child-1"
+          >
+            <h1>
+              <span class="color-orange">5 когнитивных искажений</span><br />
+              <span class="color-white"
+                >о существовании которых стоит помнить</span
+              >
+            </h1>
+          </li>
+
+          <li class="card card-height-standard">
+            <a href="#ikea-effect" class="link">
               <h2 class="number">1</h2>
               <h3 class="color-orange">Эффект ИКЕА</h3>
               <p class="font-opensans mt-16px">
                 Вы переоцениваете собственные решения, и, как следствие,
                 недооцениваете решения других.
               </p>
-            </li>
-          </a>
-          <a href="#premature-optimization" class="link">
-            <li class="card card-height-323px">
+            </a>
+          </li>
+
+          <li class="card card-height-standard">
+            <a href="#premature-optimization" class="link">
               <h2 class="number">2</h2>
               <h3 class="color-orange">Преждевременная оптимизация</h3>
               <p class="font-opensans mt-16px">
                 Вы оптимизируете что-то задолго до того, как в этом появляется
                 необходимость.
               </p>
-            </li>
-          </a>
+            </a>
+          </li>
 
-          <a href="#distortion-of-novelty" class="link">
-            <li class="card card-height-348px">
+          <li class="card card-height-increased">
+            <a href="#distortion-of-novelty" class="link">
               <h2 class="number">3</h2>
               <h3 class="color-orange">Искажение новизны</h3>
               <p class="font-opensans mt-16px">
                 Вы даёте более высокую оценку тем событиям, которые произошли
                 недавно, и недооцениваете более старые.
               </p>
-            </li>
-          </a>
+            </a>
+          </li>
 
-          <a href="#hyperbolic-depreciation" class="link">
-            <li class="card card-height-348px">
+          <li class="card card-height-increased">
+            <a href="#hyperbolic-depreciation" class="link">
               <h2 class="number">4</h2>
               <h3 class="color-orange">Гиперболическое обесценивание</h3>
               <p class="font-opensans mt-12px">
                 Вы гонитесь за немедленной маленькой выгодой и игнорируете более
                 крупную, недоступную сейчас, но доступную в будущем.
               </p>
-            </li>
-          </a>
+            </a>
+          </li>
 
-          <a href="#errors-in-planning" class="link">
-            <li class="card card-height-348px">
+          <li class="card card-height-increased">
+            <a href="#errors-in-planning" class="link">
               <h2 class="number">5</h2>
               <h3 class="color-orange">Ошибка планирования</h3>
               <p class="font-opensans mt-16px">
                 Неправильно рассчитывать время необходимое для завершения
                 задачи.
               </p>
-            </li>
-          </a>
+            </a>
+          </li>
         </ul>
       </section>
 
       <!-- ikea-effect -->
-      <section id="ikea-effect" class="background-effect-before-1">
+      <section id="ikea-effect" class="ikea-effect background-effect-before-1">
         <div class="content col-2 pt-100px">
           <div class="drop-shadow">
-            <img src="/img/1.png" alt="Tota with a friend" />
+            <img src="img/1.png" alt="Tota with a friend" />
           </div>
           <div class="ikea-effect-text font-neucha">
             <p class="font-size-24px color-semi-dark">Когнитивные искажения</p>
@@ -147,7 +154,7 @@
           </div>
         </div>
         <div class="content pt-100px">
-          <h4 class="color-white backrgound-braun pl-10px">КАК ПРОЯВЛЯЕТСЯ</h4>
+          <h4 class="color-white backrgound-braun pl-10px">как проявляется</h4>
           <div class="col-2 mt-20px">
             <p>
               Когнитивное искажение называется так из-за того, что потребители
@@ -165,7 +172,10 @@
       </section>
 
       <!--premature-optimization-->
-      <section id="premature-optimization" class="background-effect-before">
+      <section
+        id="premature-optimization"
+        class="premature-optimization background-effect-before"
+      >
         <div class="content col-2 pt-100px">
           <div class="font-neucha">
             <p class="font-size-24px color-semi-white">Когнитивные искажения</p>
@@ -177,14 +187,14 @@
           </div>
           <div class="premature-optimization-image">
             <img
-              src="/img/2.png"
+              src="img/2.png"
               class="drop-shadow"
               alt="Tota launches a rocket"
             />
           </div>
         </div>
         <div class="content pt-100px">
-          <h4 class="color-braun background-white pl-10px">КАК ПРОЯВЛЯЕТСЯ</h4>
+          <h4 class="color-braun background-white pl-10px">как проявляется</h4>
           <div class="col-2 mt-20px color-white">
             <p>
               Если вы добавите аэродинамический спойлер к своему старому
@@ -200,12 +210,15 @@
       </section>
 
       <!--distortion-of-novelty-->
-      <section id="distortion-of-novelty" class="background-effect-before-1">
+      <section
+        id="distortion-of-novelty"
+        class="distortion-of-novelty background-effect-before-1"
+      >
         <div class="content col-2 pt-100px">
           <div class="drop-shadow">
             <img src="img/3.png" alt="Tota with a new idea" />
           </div>
-          <div class="ikea-effect-text font-neucha">
+          <div class="font-neucha">
             <p class="font-size-24px color-semi-dark">Когнитивные искажения</p>
             <h2 class="color-main-dark">Искажение новизны</h2>
             <h3 class="mt-30px">
@@ -215,7 +228,7 @@
           </div>
         </div>
         <div class="content pt-100px">
-          <h4 class="color-white backrgound-braun pl-10px">КАК ПРОЯВЛЯЕТСЯ</h4>
+          <h4 class="color-white backrgound-braun pl-10px">как проявляется</h4>
           <div class="col-2 mt-20px">
             <p>
               Часто это искажение настигает нас, когда нужно решение проблемы и…
@@ -233,7 +246,10 @@
       </section>
 
       <!-- hyperbolic-depreciation -->
-      <section id="hyperbolic-depreciation" class="background-effect-before">
+      <section
+        id="hyperbolic-depreciation"
+        class="hyperbolic-depreciation background-effect-before"
+      >
         <div class="content col-2 pt-100px">
           <div class="font-neucha">
             <p class="font-size-24px color-semi-white">Когнитивные искажения</p>
@@ -252,7 +268,7 @@
           </div>
         </div>
         <div class="content pt-100px">
-          <h4 class="color-braun background-white pl-10px">КАК ПРОЯВЛЯЕТСЯ</h4>
+          <h4 class="color-braun background-white pl-10px">как проявляется</h4>
           <div class="col-2 mt-20px color-white">
             <p>
               Если вы добавите аэродинамический спойлер к своему старому
@@ -268,12 +284,15 @@
       </section>
 
       <!-- errors-in-planning -->
-      <section id="errors-in-planning" class="background-effect-before-1">
+      <section
+        id="errors-in-planning"
+        class="errors-in-planning background-effect-before-1"
+      >
         <div class="content col-2 pt-100px">
           <div class="drop-shadow">
             <img src="img/5.png" alt="Tota-plans-his-affairs" />
           </div>
-          <div class="ikea-effect-text font-neucha">
+          <div class="font-neucha">
             <p class="font-size-24px color-semi-dark">Когнитивные искажения</p>
             <h2 class="color-main-dark">Ошибка планирования</h2>
             <h3 class="mt-30px">
@@ -282,7 +301,7 @@
           </div>
         </div>
         <div class="content pt-100px">
-          <h4 class="color-white backrgound-braun pl-10px">КАК ПРОЯВЛЯЕТСЯ</h4>
+          <h4 class="color-white backrgound-braun pl-10px">как проявляется</h4>
           <div class="col-2 mt-20px">
             <p>
               Одно из искажений, которое должно признать большинство из нас. И
@@ -290,9 +309,12 @@
               ставить сроки, в которые невозможно закончить запланированное.
             </p>
             <p>
-              Это отлично выражается в старом афоризме:<br /><br />
-              Первые 90% готового кода отнимают первые 90% времени разработки.
-              Оставшиеся 10% отнимают вторые 90% времени разработки.
+              Это отлично выражается в старом афоризме:
+              <span class="format-string"
+                >Первые 90% готового кода отнимают первые 90% времени
+                разработки. Оставшиеся 10% отнимают вторые 90% времени
+                разработки.</span
+              >
             </p>
           </div>
         </div>

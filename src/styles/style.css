@@ -1,20 +1,21 @@
 /** CSS STYLE **/
+
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Regular.ttf");
+  src: url("../fonts/OpenSans-Regular.woff");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Bold.ttf");
+  src: url("../fonts/OpenSans-Bold.woff");
 }
 
 @font-face {
-  font-weight: 400;
+  font-weight: 600;
   font-family: Neucha;
-  src: url("../fonts/Neucha-Regular.ttf");
+  src: url("../fonts/Neucha-Regular.woff");
 }
 
 :root {
@@ -73,12 +74,14 @@ h3 {
   line-height: 1.2em;
 }
 
+li {
+  list-style-type: none;
+}
+
 .link {
   color: var(--color-dark);
 
   text-decoration: none;
-
-  list-style-type: none;
 }
 
 .color-link {
@@ -129,17 +132,29 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+.format-string {
+  display: block;
+  margin-top: 1em;
+}
+
 .btn {
+  display: block;
+
   width: 148px;
   min-height: 49px;
 
   margin-top: 20px;
   padding: 12px 24px;
+}
 
+.btn-decor {
   color: var(--color-white);
 
   font-weight: 700;
   font-size: var(--font-size-16px);
+
+  text-transform: uppercase;
+  text-decoration: none;
 
   background-color: var(--color-orange);
 
@@ -180,11 +195,15 @@ h3 {
   margin-top: 100px;
 }
 
+.mt-40px {
+  margin-top: 40px;
+}
+
 .pl-10px {
   padding-left: 10px;
 }
 
-header {
+.header {
   position: relative;
 
   width: 100%;
@@ -194,7 +213,7 @@ header {
   overflow: hidden;
 }
 
-header::before,
+.header::before,
 .background-effect-before-1::before {
   position: absolute;
 
@@ -236,6 +255,10 @@ header::before,
   margin: 0 auto;
 }
 
+.content > h4 {
+  text-transform: uppercase;
+}
+
 .section {
   margin: 100px 0;
 
@@ -261,7 +284,7 @@ header::before,
   padding-top: 100px;
 }
 
-#video-section {
+.video-section {
   background-color: var(--color-white);
 }
 
@@ -269,7 +292,7 @@ header::before,
   font-size: 12px;
 }
 
-#video-section p {
+.video-section p {
   margin: 30px 0;
 }
 
@@ -282,7 +305,7 @@ header::before,
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#navigation {
+.navigation {
   position: relative;
   z-index: 100;
 
@@ -315,18 +338,19 @@ header::before,
 
 .card:hover,
 .card:hover h2,
-.card:hover h3 {
+.card:hover h3,
+.card:hover p {
   color: var(--color-white);
 
   background-color: var(--color-orange);
 }
 
-.card-height-323px {
-  height: 323px;
+.card-height-standard {
+  min-height: 323px;
 }
 
-.card-height-348px {
-  height: 348px;
+.card-height-increased {
+  min-height: 348px;
 }
 
 .nth-child-1,
@@ -410,32 +434,32 @@ footer {
 }
 
 .btn-70-50hw::before {
-  content: url("../icon/Vector.png");
+  content: url("../img/Vector.svg");
 }
 
-#ikea-effect,
-#premature-optimization,
-#distortion-of-novelty {
+.ikea-effect,
+.premature-optimization,
+.distortion-of-novelty {
   position: relative;
 
   overflow: hidden;
 }
 
-#ikea-effect {
+.ikea-effect {
   min-height: 910px;
 }
 
-#premature-optimization {
+.premature-optimization {
   min-height: 860px;
 
   background-color: var(--color-brown);
 }
 
-#distortion-of-novelty {
+.distortion-of-novelty {
   min-height: 880px;
 }
 
-#hyperbolic-depreciation {
+.hyperbolic-depreciation {
   position: relative;
 
   min-height: 937px;
@@ -443,6 +467,6 @@ footer {
   background-color: var(--color-brown);
 }
 
-#errors-in-planning {
+.errors-in-planning {
   min-height: 919px;
 }
