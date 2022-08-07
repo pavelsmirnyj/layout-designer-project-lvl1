@@ -299,14 +299,11 @@ li {
 .video {
   position: relative;
 
-  width: 919px;
-  height: 589px;
-
   z-index: 200;
 
   margin-bottom: -200px;
 
-  /* filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%)); */
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .navigation {
