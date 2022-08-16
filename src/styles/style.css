@@ -132,18 +132,12 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 
-.format-string {
-  display: block;
-  margin-top: 1em;
-}
-
 .btn {
   display: block;
 
   width: 148px;
   min-height: 49px;
 
-  margin-top: 20px;
   padding: 12px 24px;
 }
 
@@ -175,6 +169,10 @@ li {
   font-size: 24px;
 }
 
+.span-block {
+  display: block;
+}
+
 .mt-16px {
   margin-top: 16px;
 }
@@ -203,6 +201,10 @@ li {
   padding-left: 10px;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 .header {
   position: relative;
 
@@ -214,7 +216,7 @@ li {
 }
 
 .header::before,
-.background-effect-before-1::before {
+.background-effect-before-dark::before {
   position: absolute;
 
   width: 100%;
@@ -261,8 +263,6 @@ li {
 
 .section {
   margin: 100px 0;
-
-  text-align: center;
 }
 
 .col-2 {
@@ -284,10 +284,6 @@ li {
   padding-top: 100px;
 }
 
-.video-section {
-  background-color: var(--color-white);
-}
-
 .block p {
   font-size: 12px;
 }
@@ -307,9 +303,6 @@ li {
 }
 
 .navigation {
-  position: relative;
-  z-index: 100;
-
   background-color: var(--color-main-dark);
 }
 
@@ -328,7 +321,10 @@ li {
 }
 
 .card {
-  width: 350px;
+  display: flex;
+
+  flex-basis: 350px;
+  flex-grow: 1;
 
   padding: 24px;
 
@@ -354,14 +350,14 @@ li {
   min-height: 348px;
 }
 
-.nth-child-1,
-.nth-child-1:hover {
+.main-menu-title,
+.main-menu-title:hover {
   padding: 0;
 
   background-color: var(--color-main-dark);
 }
 
-.nth-child-1 h1 {
+.main-menu-title h1 {
   font-weight: 400;
   font-size: 52px;
 }
@@ -399,8 +395,8 @@ footer {
 #label-email {
   display: block;
 
-  width: 423px;
-  height: 50px;
+  min-width: 423px;
+  min-height: 50px;
 
   padding: 15px;
 
@@ -420,8 +416,6 @@ footer {
   padding-top: 60px;
 
   font-size: 14px;
-
-  text-align: center;
 }
 
 .btn-70-50hw {
