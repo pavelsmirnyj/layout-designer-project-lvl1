@@ -33,14 +33,13 @@
   --font-size-16px: 16px;
 }
 
-/* * {
+* {
   box-sizing: border-box;
-
-  margin: 0;
-  padding: 0;
-} */
+}
 
 body {
+  margin: 0;
+
   color: var(--color-dark);
 
   font-size: var(--font-size-16px);
@@ -173,32 +172,44 @@ li {
   display: block;
 }
 
-.mt-16px {
-  margin-top: 16px;
+.mg-0 {
+  margin: 0;
 }
 
-.mt-12px {
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-12 {
   margin-top: 12px;
 }
 
-.mt-20px {
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-20 {
   margin-top: 20px;
 }
 
-.mt-30px {
+.mt-30 {
   margin-top: 30px;
 }
 
-.mt-100px {
-  margin-top: 100px;
-}
-
-.mt-40px {
+.mt-40 {
   margin-top: 40px;
 }
 
-.pl-10px {
+.pd-24 {
+  padding: 24px;
+}
+
+.pl-10 {
   padding-left: 10px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 .text-align-center {
@@ -313,6 +324,7 @@ li {
   gap: 30px;
 
   padding-top: 200px;
+  padding-left: 0;
   padding-bottom: 100px;
 }
 
@@ -325,8 +337,6 @@ li {
 
   flex-basis: 350px;
   flex-grow: 1;
-
-  padding: 24px;
 
   font-family: Neucha, cursive;
 
@@ -343,11 +353,11 @@ li {
 }
 
 .card-height-standard {
-  min-height: 323px;
+  height: 323px;
 }
 
 .card-height-increased {
-  min-height: 348px;
+  height: 348px;
 }
 
 .main-menu-title,
@@ -372,7 +382,7 @@ li {
   line-height: 1em;
 }
 
-.pt-100px {
+.pt-100 {
   padding-top: 100px;
 }
 
@@ -455,8 +465,6 @@ footer {
 }
 
 .hyperbolic-depreciation {
-  position: relative;
-
   min-height: 937px;
 
   background-color: var(--color-brown);
