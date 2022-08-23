@@ -73,9 +73,9 @@ h3 {
   line-height: 1.2em;
 }
 
-li {
+/* li {
   list-style-type: none;
-}
+} */
 
 .link {
   color: var(--color-dark);
