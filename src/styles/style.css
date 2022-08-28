@@ -73,10 +73,6 @@ h3 {
   line-height: 1.2em;
 }
 
-/* li {
-  list-style-type: none;
-} */
-
 .link {
   color: var(--color-dark);
 
@@ -282,6 +278,10 @@ h3 {
   gap: 30px;
 }
 
+.background-color-dark {
+  background-color: var(--color-main-dark);
+}
+
 .header-image {
   position: absolute;
 
@@ -311,10 +311,6 @@ h3 {
   margin-bottom: -200px;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-}
-
-.navigation {
-  background-color: var(--color-main-dark);
 }
 
 .col-3 {
@@ -353,18 +349,11 @@ h3 {
 }
 
 .card-height-standard {
-  height: 323px;
+  min-height: 323px;
 }
 
 .card-height-increased {
-  height: 348px;
-}
-
-.main-menu-title,
-.main-menu-title:hover {
-  padding: 0;
-
-  background-color: var(--color-main-dark);
+  min-height: 348px;
 }
 
 .main-menu-title h1 {
@@ -394,15 +383,13 @@ footer {
   align-items: center;
 
   min-height: 190px;
-
-  background-color: var(--color-main-dark);
 }
 
 .feedback .label-email {
   font-size: 18px;
 }
 
-#label-email {
+.label-email {
   display: block;
 
   min-width: 423px;
