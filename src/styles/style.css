@@ -385,10 +385,6 @@ footer {
   min-height: 190px;
 }
 
-.feedback .label-email {
-  font-size: 18px;
-}
-
 .label-email {
   display: block;
 
@@ -403,6 +399,10 @@ footer {
   border-radius: 0%;
 
   outline: none;
+}
+
+.feedback .label-email {
+  font-size: 18px;
 }
 
 .input-button {
