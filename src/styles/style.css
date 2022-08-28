@@ -203,6 +203,9 @@ h3 {
 .pl-10 {
   padding-left: 10px;
 }
+.pb-0 {
+  padding-bottom: 0;
+}
 
 .pb-100 {
   padding-bottom: 100px;
