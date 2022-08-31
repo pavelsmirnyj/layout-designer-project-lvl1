@@ -355,7 +355,7 @@ h3 {
 .card:hover,
 .card:hover h2,
 .card:hover h3,
-.card:hover p {
+.card:hover .card-content {
   color: var(--color-white);
 
   background-color: var(--color-orange);
@@ -369,9 +369,9 @@ h3 {
   min-height: 348px;
 }
 
-.main-menu-title h1 {
-  font-weight: 400;
+.main-menu-title p {
   font-size: 52px;
+  line-height: 1.2em;
 }
 
 .number {
