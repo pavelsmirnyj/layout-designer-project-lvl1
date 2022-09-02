@@ -132,6 +132,10 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+.background-header-position {
+  position: relative;
+}
+
 .btn {
   display: block;
 
@@ -228,8 +232,6 @@ h3 {
 .header {
   position: relative;
 
-  width: 100%;
-
   min-height: 914px;
 
   overflow: hidden;
@@ -270,7 +272,7 @@ h3 {
 }
 
 .content {
-  position: relative;
+  /* position: relative; */
 
   width: 1110px;
 
@@ -308,9 +310,9 @@ h3 {
   padding-top: 100px;
 }
 
-.block p {
+/* .block p {
   font-size: 12px;
-}
+} */
 
 .video-section p {
   margin: 30px 0;
@@ -353,7 +355,7 @@ h3 {
 }
 
 .card:hover,
-.card:hover h2,
+.card:hover p,
 .card:hover h3,
 .card:hover .card-content {
   color: var(--color-white);
@@ -361,15 +363,15 @@ h3 {
   background-color: var(--color-orange);
 }
 
-.card-height-standard {
+/* .card-height-standard {
   min-height: 323px;
 }
 
 .card-height-increased {
   min-height: 348px;
-}
+} */
 
-.main-menu-title p {
+.main-menu-title h2 {
   font-size: 52px;
   line-height: 1.2em;
 }
@@ -457,7 +459,7 @@ footer {
 .premature-optimization {
   min-height: 860px;
 
-  background-color: var(--color-brown);
+  /* background-color: var(--color-brown); */
 }
 
 .distortion-of-novelty {
@@ -467,7 +469,7 @@ footer {
 .hyperbolic-depreciation {
   min-height: 937px;
 
-  background-color: var(--color-brown);
+  /* background-color: var(--color-brown); */
 }
 
 .errors-in-planning {
