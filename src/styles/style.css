@@ -217,6 +217,10 @@ h3 {
   padding: 24px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .pl-10 {
   padding-left: 10px;
 }
@@ -284,16 +288,10 @@ h3 {
 }
 
 .content {
-  /* position: relative; */
-
   width: 1110px;
 
   margin: 0 auto;
 }
-
-/* .content h4 {
-  text-transform: uppercase;
-} */
 
 .section {
   margin: 100px 0;
@@ -321,10 +319,6 @@ h3 {
 
   padding-top: 100px;
 }
-
-/* .block p {
-  font-size: 12px;
-} */
 
 .video-section p {
   margin: 30px 0;
@@ -375,14 +369,6 @@ h3 {
   background-color: var(--color-orange);
 }
 
-/* .card-height-standard {
-  min-height: 323px;
-}
-
-.card-height-increased {
-  min-height: 348px;
-} */
-
 .main-menu-title h2 {
   font-size: 52px;
   line-height: 1.2em;
@@ -396,10 +382,6 @@ h3 {
   font-size: 64px;
 
   line-height: 1em;
-}
-
-.pt-100 {
-  padding-top: 100px;
 }
 
 footer {
@@ -470,8 +452,6 @@ footer {
 
 .premature-optimization {
   min-height: 860px;
-
-  /* background-color: var(--color-brown); */
 }
 
 .distortion-of-novelty {
@@ -480,8 +460,6 @@ footer {
 
 .hyperbolic-depreciation {
   min-height: 937px;
-
-  /* background-color: var(--color-brown); */
 }
 
 .errors-in-planning {
