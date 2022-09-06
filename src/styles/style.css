@@ -173,12 +173,6 @@ h3 {
   font-size: 24px;
 }
 
-.headline {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.6em;
-}
-
 .span-block {
   display: block;
 }
@@ -357,7 +351,7 @@ h3 {
   padding-left: 0;
 }
 
-.feedback h3 {
+.feedback .description {
   padding-left: 55px;
 }
 
