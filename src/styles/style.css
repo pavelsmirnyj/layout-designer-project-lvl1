@@ -128,7 +128,7 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
-.background-header-position {
+.background-position {
   position: relative;
 }
 
@@ -284,6 +284,9 @@ h3 {
 }
 
 .content {
+  position: relative;
+  z-index: 200;
+
   width: 1110px;
 
   margin: 0 auto;
@@ -418,17 +421,19 @@ footer {
   font-size: 14px;
 }
 
-.btn-70-50hw {
+.btn-70-50 {
   width: 70px;
   min-height: 50px;
+}
 
+.btn-70-50-decor {
   background-color: var(--color-orange);
 
   border: none;
   cursor: pointer;
 }
 
-.btn-70-50hw::before {
+.btn-70-50::before {
   content: url("../img/Vector.svg");
 }
 
