@@ -128,10 +128,6 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
-.background-position {
-  position: relative;
-}
-
 .btn {
   display: block;
 
@@ -421,19 +417,19 @@ footer {
   font-size: 14px;
 }
 
-.btn-70-50 {
+.btn-submit {
   width: 70px;
   min-height: 50px;
 }
 
-.btn-70-50-decor {
+.btn-submit-decor {
   background-color: var(--color-orange);
 
   border: none;
   cursor: pointer;
 }
 
-.btn-70-50::before {
+.btn-submit::before {
   content: url("../img/Vector.svg");
 }
 
